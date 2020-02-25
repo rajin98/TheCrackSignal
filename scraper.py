@@ -13,13 +13,13 @@ GLOBAL_STATE = False
 def scrapFromTwitch(url, fn, chrome_options, channel, known_encodings):
     driver = webdriver.Chrome(chrome_options=chrome_options)
     driver.get(url)
-    js = open("set_res.js")
+    js = open("js/set_res.js")
     driver.execute_script(js.read())
 
     # i = 0
     while isLive(channel) or DEBUG:
 
-        ss_script = open("take_ss.js")
+        ss_script = open("js/take_ss.js")
         driver.execute_script(ss_script.read())
         dl = driver.find_element_by_id('selenium-download-link')
         image64 = dl.get_attribute('href')
