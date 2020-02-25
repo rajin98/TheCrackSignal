@@ -7,7 +7,7 @@ import requests
 from selenium.webdriver.chrome.options import Options
 import time
 
-DEBUG = True
+DEBUG = False
 GLOBAL_STATE = False
 
 
@@ -20,7 +20,6 @@ def scrapFromTwitch(url, fn, chrome_options, channel, known_encodings):
     # i = 0
     while isLive(channel) or DEBUG:
 
-        time.sleep(5)
         ss_script = open("take_ss.js")
         driver.execute_script(ss_script.read())
         dl = driver.find_element_by_id('selenium-download-link')

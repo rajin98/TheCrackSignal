@@ -3,11 +3,106 @@
   <component name="ChangeListManager">
     <list default="true" id="7c06a483-9ead-4b9e-8ecb-59e6d5a9d71d" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/draw_box.py" beforeDir="false" afterPath="$PROJECT_DIR$/draw_box.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/michael/testb.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/michael/testd.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/michael/teste.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/face_recognition/.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/face_recognition/.github/ISSUE_TEMPLATE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/face_recognition/.github/workflows/main.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/face_recognition/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/face_recognition/AUTHORS.rst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/face_recognition/CONTRIBUTING.rst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/face_recognition/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/face_recognition/Dockerfile.gpu" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/face_recognition/HISTORY.rst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/face_recognition/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/face_recognition/MANIFEST.in" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/face_recognition/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/face_recognition/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/face_recognition/README.rst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/face_recognition/README_Japanese.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/face_recognition/README_Korean.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/face_recognition/README_Simplified_Chinese.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/face_recognition/docker-compose.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/face_recognition/docs/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/face_recognition/docs/authors.rst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/face_recognition/docs/conf.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/face_recognition/docs/contributing.rst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/face_recognition/docs/face_recognition.rst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/face_recognition/docs/history.rst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/face_recognition/docs/index.rst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/face_recognition/docs/installation.rst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/face_recognition/docs/make.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/face_recognition/docs/modules.rst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/face_recognition/docs/readme.rst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/face_recognition/docs/usage.rst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/face_recognition/examples/alex-lacamoire.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/face_recognition/examples/benchmark.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/face_recognition/examples/biden.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/face_recognition/examples/blink_detection.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/face_recognition/examples/blur_faces_on_webcam.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/face_recognition/examples/digital_makeup.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/face_recognition/examples/face_distance.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/face_recognition/examples/face_recognition_knn.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/face_recognition/examples/face_recognition_svm.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/face_recognition/examples/facerec_from_video_file.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/face_recognition/examples/facerec_from_webcam.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/face_recognition/examples/facerec_from_webcam_faster.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/face_recognition/examples/facerec_from_webcam_multiprocessing.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/face_recognition/examples/facerec_ipcamera_knn.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/face_recognition/examples/facerec_on_raspberry_pi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/face_recognition/examples/facerec_on_raspberry_pi_Simplified_Chinese.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/face_recognition/examples/find_faces_in_batches.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/face_recognition/examples/find_faces_in_picture.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/face_recognition/examples/find_faces_in_picture_cnn.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/face_recognition/examples/find_facial_features_in_picture.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/face_recognition/examples/hamilton_clip.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/face_recognition/examples/identify_and_draw_boxes_on_faces.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/face_recognition/examples/ipynb_examples/track_faces_on_video_realtime.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/face_recognition/examples/knn_examples/test/alex_lacamoire1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/face_recognition/examples/knn_examples/test/johnsnow_test1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/face_recognition/examples/knn_examples/test/kit_with_rose.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/face_recognition/examples/knn_examples/test/obama1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/face_recognition/examples/knn_examples/test/obama_and_biden.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/face_recognition/examples/knn_examples/train/alex_lacamoire/img1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/face_recognition/examples/knn_examples/train/biden/biden.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/face_recognition/examples/knn_examples/train/biden/biden2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/face_recognition/examples/knn_examples/train/kit_harington/john1.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/face_recognition/examples/knn_examples/train/kit_harington/john2.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/face_recognition/examples/knn_examples/train/obama/obama.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/face_recognition/examples/knn_examples/train/obama/obama2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/face_recognition/examples/knn_examples/train/rose_leslie/img1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/face_recognition/examples/knn_examples/train/rose_leslie/img2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/face_recognition/examples/lin-manuel-miranda.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/face_recognition/examples/obama-1080p.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/face_recognition/examples/obama-240p.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/face_recognition/examples/obama-480p.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/face_recognition/examples/obama-720p.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/face_recognition/examples/obama.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/face_recognition/examples/obama2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/face_recognition/examples/obama_small.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/face_recognition/examples/recognize_faces_in_pictures.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/face_recognition/examples/short_hamilton_clip.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/face_recognition/examples/two_people.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/face_recognition/examples/web_service_example.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/face_recognition/examples/web_service_example_Simplified_Chinese.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/face_recognition/face_recognition/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/face_recognition/face_recognition/api.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/face_recognition/face_recognition/face_detection_cli.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/face_recognition/face_recognition/face_recognition_cli.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/face_recognition/pyproject.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/face_recognition/requirements.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/face_recognition/requirements_dev.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/face_recognition/requirements_docs.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/face_recognition/setup.cfg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/face_recognition/setup.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/face_recognition/tests/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/face_recognition/tests/test_face_recognition.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/face_recognition/tests/test_images/32bit.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/face_recognition/tests/test_images/biden.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/face_recognition/tests/test_images/obama.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/face_recognition/tests/test_images/obama2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/face_recognition/tests/test_images/obama3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/face_recognition/tests/test_images/obama_partial_face.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/face_recognition/tests/test_images/obama_partial_face2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/face_recognition/tox.ini" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/ss.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/ss.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ss_scraper.py" beforeDir="false" afterPath="$PROJECT_DIR$/ss_scraper.py" afterDir="false" />
     </list>
@@ -23,22 +118,10 @@
       <file leaf-file-name="ss_scraper.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ss_scraper.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="377">
-              <caret line="90" column="63" selection-start-line="90" selection-start-column="63" selection-end-line="90" selection-end-column="63" />
+            <state relative-caret-position="272">
+              <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="api.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/face_recognition/face_recognition/api.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3638">
-              <caret line="217" column="7" selection-start-line="217" selection-start-column="7" selection-end-line="217" selection-end-column="7" />
-              <folding>
-                <element signature="e#25#41#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -81,7 +164,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1382" />
@@ -218,22 +301,30 @@
       <option name="presentableId" value="Default" />
       <updated>1582416724704</updated>
     </task>
+    <task id="LOCAL-00001" summary="Test">
+      <created>1582572655683</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1582572655683</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.19253294" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.19253294" />
       <window_info anchor="bottom" id="TODO" order="10" />
       <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.50073206" side_tool="true" weight="0.3290938" />
+      <window_info anchor="bottom" id="Run" order="6" sideWeight="0.49926794" weight="0.24801272" />
       <window_info anchor="bottom" id="Version Control" order="3" />
       <window_info anchor="bottom" id="Python Console" order="0" />
-      <window_info anchor="bottom" id="Run" order="6" sideWeight="0.49926794" weight="0.24801272" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="1" />
-      <window_info id="Favorites" order="0" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
+      <window_info id="Favorites" order="0" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -246,12 +337,76 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Test" />
+    <option name="LAST_COMMIT_MESSAGE" value="Test" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <option name="time" value="1" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/ss_scraper.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/face_recognition/face_recognition/api.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3638">
+          <caret line="217" column="7" selection-start-line="217" selection-start-column="7" selection-end-line="217" selection-end-column="7" />
+          <folding>
+            <element signature="e#25#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/draw_box.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="663">
+          <caret line="44" column="50" selection-start-line="44" selection-start-column="50" selection-end-line="44" selection-end-column="50" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ss_scraper.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/face_recognition/face_recognition/api.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3638">
+          <caret line="217" column="7" selection-start-line="217" selection-start-column="7" selection-end-line="217" selection-end-column="7" />
+          <folding>
+            <element signature="e#25#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/draw_box.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="663">
+          <caret line="44" column="50" selection-start-line="44" selection-start-column="50" selection-end-line="44" selection-end-column="50" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ss_scraper.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1003">
@@ -508,8 +663,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ss_scraper.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="377">
-          <caret line="90" column="63" selection-start-line="90" selection-start-column="63" selection-end-line="90" selection-end-column="63" />
+        <state relative-caret-position="272">
+          <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
           </folding>
