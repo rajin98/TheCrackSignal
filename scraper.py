@@ -1,11 +1,10 @@
 import base64
-import face_recognition.face_recognition as fr
+import face_recognition as fr
 from selenium import webdriver
 import draw_box
 import os
 import requests
 from selenium.webdriver.chrome.options import Options
-import time
 
 DEBUG = False
 GLOBAL_STATE = False
@@ -43,7 +42,7 @@ def sendData(status, image, channel):
     url = 'http://cracksignal.scienceontheweb.net/api/admin/update.php/'
     if DEBUG:
         url = 'http://192.168.0.13/crackSignal/api/admin/update.php/'
-    data = {'auth': 'qRE*S6Trzbwb5Vxxvz*gqfqd@%pEtwCA', 'status': status, 'image': image, 'channel': channel}
+    data = {'auth': '<authentication-key>', 'status': status, 'image': image, 'channel': channel}
     r = requests.post(url=url, data=data)
 
 
@@ -51,12 +50,12 @@ def sendEndofStream():
     url = 'http://cracksignal.scienceontheweb.net/api/admin/update.php/'
     if DEBUG:
         url = 'http://192.168.0.13/crackSignal/api/admin/update.php/'
-    data = {'auth': 'qRE*S6Trzbwb5Vxxvz*gqfqd@%pEtwCA', 'status': False, 'image': False, 'channel': False, 'eos': True}
+    data = {'auth': '<authentication-key>', 'status': False, 'image': False, 'channel': False, 'eos': True}
     r = requests.post(url=url, data=data)
 
 def isLive(channel):
     url = 'https://api.twitch.tv/helix/streams?user_login=' + channel
-    headers = {'Client-ID': 'tdocwr9sz4pi3odc5emk4qw3jzidqo'}
+    headers = {'Client-ID': '<twitch-client-id>'}
     r = requests.get(url, headers=headers)
 
     try:
